@@ -1,10 +1,10 @@
 import calendar
 
-year=int(input("Введите год " ))
+year = int(input("Введите год "))
 
 
 def is_year_leap():
-    result=calendar.isleap(year)
+    result = calendar.isleap(year)
     print(result)
 
 
